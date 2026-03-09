@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Luz Moreno Campos">
+  <meta name="description" content="Myfirst web page">
+  <meta name="keywords" content="html, css, web development, javascript">
+  <link rel="icon" href="./assets/media/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/styles/reset.css" media="all">
+  <link rel="stylesheet" href="./assets/styles/common-styles.css" media="all">
+  <link rel="stylesheet" href="./assets/styles/contact.css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>Contact Section</title>
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="./assets/media/logo-border.png">
+    <div>
+      <nav class="menu">
+        <a class="buttons" href="./index.html" class="sections">Home</a>
+        <a class="buttons" href="./about.html" class="sections">About Us</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="positions">
+      <div class="col-one">
+        <section class="contact-form">
+          <h1>Contact us</h1>
+          <form class="text-color">
+            <div class="form-fields">
+              <label for="Name">Full Name:</label>
+              <input type="text" id="name" name="Name" class="input-box" placeholder="Enter your name here">
+            </div>
+            <div class="form-fields">
+              <label for="email">Email address:</label>
+              <input type="email" id="email" name="email" class="input-box" placeholder="Enter your email address">
+            </div>
+            <div class="form-fields">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" class="input-box" maxlength="200"
+                placeholder="Enter your message (200 characters max.)"></textarea>
+            </div>
+          </form>
+        </section>
+        <section class="contact-map">
+          <div>
+            <h1>Find us here:</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d164540.29402756802!2d-97.59217560546875!3d49.881113999999975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sFit4Less!5e0!3m2!1ses-419!2sca!4v1770923385581!5m2!1ses-419!2sca"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+      </div>
+      <div class="col-two">
+        <section class="contact-info text-color"">
+          <h1>Contact Info:</h1>
+          <ul>
+            <li class="title">General inquires:</li>
+            <li>info@fitnessbliss.com</li>
+            <li class="title">Membership Programs:</li>
+            <li>membership@fitnessbliss.com</li>
+            <li class="title">Other inquiries</li>
+            <li>204 992-7654</li>
+          </ul>
+           <h3 class = "follow-us">Follow Us:</h3>
+           <nav class="social-media">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           </nav>
+          </ul>
+        </section>
+        <section class="know-more">
+          <h2>Find all our programs here:</h2>
+          <nav>
+            <a class="learn-more buttons" href="./about.html" class="sections">Learn More</a>
+          </nav>         
+        </section>   
+        <div class="top buttons">
+          <a  href="#header">Back to the top</a> 
+        </div>    
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-title">Fitness Bliss</p>
+        <p class="footer-text">
+          Train with confidence. Stay consistent. Feel your best.
+        </p>
+        <p class="footer-copy">
+          © <span id="year"></span> All rights reserved.
+        </p>
+      </div>
+    </footer>
+</body>
+
+</html>

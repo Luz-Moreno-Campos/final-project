@@ -1,0 +1,176 @@
+
+  label, textarea {
+    display: block;
+  }
+
+  main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;    
+  }
+
+  .positions {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:200px;
+   
+  }
+
+  .col-one, .col-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+
+h1, h2, h3, form {
+  font-family: "Outfit", sans-serif;
+  color: rgb(87, 73, 73);
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}  
+ 
+
+  .contact-form h1, 
+  .contact-map h1 {
+   text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column ;
+    background-color: rgb(217, 215, 215) ;
+    border: 3px double rgb(200, 185, 204) ;
+    border-radius: 10px;
+    margin:10px;
+    padding: 20px 20px 40px 20px;
+  
+  }
+
+  .form-fields {
+    margin:10px 20px 10px;
+   
+  }
+
+  .input-box {
+    background-color:rgb(244, 234, 221);
+    border: 3px double rgb(200, 185, 204) ;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .input-box, form { 
+    box-sizing: border-box; 
+  }
+
+  #message {
+    height: 250px;
+    width:300px ;
+  }
+
+   .contact-info, .follow-us {
+text-align:justify;
+
+  } 
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 20px;
+ color: rgb(87, 73, 73);
+}
+
+.title {
+  font-weight: bold;
+}
+
+.social-media {
+  display:flex;
+  justify-content: flex-start;
+}
+
+.follow-us {
+  margin-bottom: 15px;
+}
+
+.contact-map {
+  margin-top: 20px;        
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+}
+
+iframe {
+  max-width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 0 auto 20px;
+}
+
+
+.know-more {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+
+}
+
+.learn-more {
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+
+  nav.menu {
+    left: 0;
+    justify-content: center;
+   
+  }
+
+  .positions {
+    flex-direction: column;   
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contact-info,
+  .follow-us {
+    width: 100%;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    
+  }
+
+  .know-more {
+    margin-bottom: 20px;
+  } 
+
+
+
+  /*.site-footer{
+    border-top: 1px solid ;
+    padding: 20px 0;
+  }
+
+  .footer-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: ;
+  }*/
+}
